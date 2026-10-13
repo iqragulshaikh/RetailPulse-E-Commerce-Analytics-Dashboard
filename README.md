@@ -57,7 +57,7 @@ Visualization & Dashboard: Streamlit, Plotly Express
 Version Control: Git, GitHub
 
 ## Project Structure
-
+```text
 RetailPulse/
 │
 ├── data/
@@ -77,6 +77,7 @@ RetailPulse/
 │   └── run_queries.py          # Query verification and testing script
 │
 └── README.md                # Comprehensive project documentation
+```
 
 ---------------------------------------------------------------------------------------------------------
 ## Getting Started & Local Execution
