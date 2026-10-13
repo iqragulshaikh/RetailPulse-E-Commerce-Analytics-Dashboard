@@ -14,6 +14,10 @@ Modern retail and e-commerce operations rely heavily on data-driven logistics an
 
 ---
 
+## Dashboard Preview
+![RetailPulse Dashboard Preview](assets/dashboard_preview.png)
+
+---
 ##  End-to-End Pipeline Architecture
 
 The system follows a rigorous 4-stage data pipeline workflow:
