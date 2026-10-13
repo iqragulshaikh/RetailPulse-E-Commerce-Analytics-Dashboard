@@ -15,7 +15,7 @@ Modern retail and e-commerce operations rely heavily on data-driven logistics an
 ---
 
 ## Dashboard Preview
-![RetailPulse Dashboard Preview](assets/dashboard_preview.png)
+![RetailPulse Dashboard Preview](assests/dashboard_preview.png)
 
 ---
 ##  End-to-End Pipeline Architecture
