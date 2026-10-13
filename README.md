@@ -83,18 +83,18 @@ RetailPulse/
 
 Clone this repository and execute the pipeline locally:
 
-#### Clone the repository:
+#### 1. Clone the repository:
 git clone [https://github.com/iqragulshaikh/RetailPulse.git](https://github.com/your-username/RetailPulse.git)
 cd RetailPulse
 
-#### Install Required Dependencies:
+#### 2. Install Required Dependencies:
 pip install streamlit plotly pandas numpy
 
-#### Step 1: Build Database & Ingest Raw Data:
+#### 3. Step 1: Build Database & Ingest Raw Data:
 python sql/ingest_data.py
 
-#### Step 2: Clean Data & Generate Master Exports:
+#### 4. Step 2: Clean Data & Generate Master Exports:
 python notebooks/clean_and_export.py
 
-#### Step 3: Launch the Interactive Dashboard:
+#### 5. Step 3: Launch the Interactive Dashboard:
 streamlit run dashboard/app.py
