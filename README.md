@@ -10,7 +10,7 @@ Modern retail and e-commerce operations rely heavily on data-driven logistics an
 1. **Relational Data Modeling:** Consolidating multi-source transactional, customer, and logistics logs into a unified, normalized relational database architecture.
 2. **Logistics Performance Analysis:** Quantifying the exact operational cost and customer satisfaction penalty associated with delivery delays.
 3. **Revenue & Cohort Tracking:** Identifying top-performing product categories and tracking customer lifetime value trends over time.
-4. **Interactive BI Deployment:** Translating complex SQL queries and data transformations into an accessible, real-time web dashboard for stakeholders.
+4. **Interactive Streamlit Deployment:** Translating complex SQL queries and data transformations into an accessible, real-time web dashboard for stakeholders.
 
 ---
 
@@ -35,7 +35,7 @@ The system follows a rigorous 4-stage data pipeline workflow:
 [Pandas Processing & Cleaned Master Tables (`cleaned_sales_master.csv`)]
        │
        ▼ (Stage 4: Web Application Deployment)
-[Interactive Streamlit BI Dashboard (`app.py`)] 
+[Interactive Streamlit Dashboard (`app.py`)] 
 ```
 ## Pipeline Breakdown:
 Stage 1 - Ingestion (sql/ingest_data.py): Ingests 8 raw relational datasets (customers, orders, order_items, payments, reviews, products, sellers, and translations) into a structured SQLite database with proper table definitions.
@@ -70,7 +70,7 @@ RetailPulse/
 │   └── retailpulse.db       # Local SQLite relational database
 │
 ├── dashboard/
-│   └── app.py               # Interactive Streamlit BI dashboard script
+│   └── app.py               # Interactive Streamlit dashboard script
 │
 ├── notebooks/
 │   └── clean_and_export.py  # Pandas automated data cleaning & feature engineering script
